@@ -2,20 +2,23 @@ import { MantineProvider } from "@mantine/core";
 import { ModalsProvider } from "@mantine/modals";
 import { Notifications } from "@mantine/notifications";
 import MainRoutes from "./routes";
-import { Footer } from "./layout";
+import { QueryClient, QueryClientProvider } from "react-query";
 
-function App() {
+const queryClient = new QueryClient();
+
+const App = () => {
   return (
-    <MantineProvider>
-      <Notifications />
-      <ModalsProvider>
-        <div className="App">
-          <MainRoutes />
-          <Footer />
-        </div>
-      </ModalsProvider>
-    </MantineProvider>
+    <QueryClientProvider client={queryClient}>
+      <MantineProvider>
+        <Notifications />
+        <ModalsProvider>
+          <div className="App">
+            <MainRoutes />
+          </div>
+        </ModalsProvider>
+      </MantineProvider>
+    </QueryClientProvider>
   );
-}
+};
 
 export default App;

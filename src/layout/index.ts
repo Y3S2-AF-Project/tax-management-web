@@ -1,3 +1,4 @@
 import Footer from "./Footer";
+import DashboardHeader from "./DashboardHeader";
 
-export { Footer };
+export { Footer, DashboardHeader };

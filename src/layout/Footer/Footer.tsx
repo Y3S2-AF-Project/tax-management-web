@@ -14,7 +14,6 @@ import {
 
 const useStyles = createStyles((theme) => ({
   footer: {
-    marginTop: rem(120),
     backgroundColor:
       theme.colorScheme === "dark"
         ? theme.colors.dark[6]
@@ -31,9 +30,6 @@ const useStyles = createStyles((theme) => ({
     marginTop: 5,
     paddingTop: theme.spacing.xl,
     paddingBottom: theme.spacing.xl,
-    borderTop: `${rem(1)} solid ${
-      theme.colorScheme === "dark" ? theme.colors.dark[4] : theme.colors.gray[2]
-    }`,
 
     [theme.fn.smallerThan("sm")]: {
       flexDirection: "column",

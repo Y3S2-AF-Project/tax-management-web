@@ -1,3 +1,5 @@
 import Home from "./Home";
+import AdminDashboard from "./AdminDashboard";
+import TaxOfficialDashboard from "./TaxOfficialDashboard";
 
-export { Home };
+export { Home, AdminDashboard, TaxOfficialDashboard };

@@ -70,7 +70,7 @@ const QuantityInput: React.FC = ({ min = 1, max = 10 }: QuantityInputProps) => {
         className={classes.control}
         onMouseDown={(event) => event.preventDefault()}
       >
-        <IconMinus size="1rem" stroke={1.5} />
+        <IconMinus size="16px" stroke={1.5} />
       </ActionIcon>
 
       <NumberInput
@@ -91,7 +91,7 @@ const QuantityInput: React.FC = ({ min = 1, max = 10 }: QuantityInputProps) => {
         className={classes.control}
         onMouseDown={(event) => event.preventDefault()}
       >
-        <IconPlus size="1rem" stroke={1.5} />
+        <IconPlus size="16px" stroke={1.5} />
       </ActionIcon>
     </div>
   );

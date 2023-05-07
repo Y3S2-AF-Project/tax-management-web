@@ -17,7 +17,7 @@ import { ILogin } from "../../interfaces/admin";
 import { notifications, showNotification } from "@mantine/notifications";
 import { adminLogin } from "../../services/Admin";
 
-const AdminLogin = () => {
+const TaxOfficialLogin = () => {
   const navigate = useNavigate();
   if (JSON.parse(localStorage.getItem("admin") || "{}").accessToken) {
     navigate("/admin/dashboard");
@@ -86,7 +86,7 @@ const AdminLogin = () => {
         Welcome back!
       </Title>
       <Text color="dimmed" size="sm" align="center" mt={5}>
-        Sign in to Admin Dashboard
+        Sign in to Tax Offcials Dashboard
       </Text>
 
       <Paper withBorder shadow="md" p={30} mt={30} radius="md">
@@ -136,4 +136,4 @@ const AdminLogin = () => {
   );
 };
 
-export default AdminLogin;
+export default TaxOfficialLogin;
