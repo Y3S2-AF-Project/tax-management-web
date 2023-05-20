@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Home, AdminDashboard, TaxOfficialDashboard } from "../pages";
 import { Provider } from "react-redux";
 import store from "../store";
-import { AdminLogin, Logout, TaxOfficialLogin } from "../features";
+import { AdminLogin, Logout } from "../features";
 
 const MainRoutes = () => {
   return (
@@ -18,8 +18,6 @@ const MainRoutes = () => {
             path="/admin/dashboard/:tabValue"
             element={<AdminDashboard />}
           />
-
-          <Route path="/tax-official/login" element={<TaxOfficialLogin />} />
           <Route
             path="/tax-official/dashboard"
             element={<TaxOfficialDashboard />}

@@ -3,6 +3,13 @@ export interface ILogin {
   password: string;
 }
 
+export interface AdminDataLogin {
+  _id: string;
+  id: string;
+  email: string;
+  role: string;
+}
+
 export interface IAdmin {
   _id: string;
   id: string;
@@ -19,4 +26,12 @@ export interface IAdmin {
   avatar: string;
   createdAt: string;
   updatedAt: string;
+}
+
+export interface AdminDataBasic {
+  id: string;
+  firstName: string;
+  lastName: string;
+  email: string;
+  phone: string;
 }

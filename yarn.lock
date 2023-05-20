@@ -2067,17 +2067,17 @@
     loader-utils "^2.0.0"
 
 "@tabler/icons-react@^2.17.0":
-  version "2.17.0"
-  resolved "https://registry.yarnpkg.com/@tabler/icons-react/-/icons-react-2.17.0.tgz#8d7b33958bdef17c2aadaa0899b87a259c9f5f01"
-  integrity sha512-kuEW+qNwRqcK5iMl7qTapzX2NiMOwPg4Az01d+IZ1DIMwaZ7iKPJaIor2ihKFLPYrT9D5BZHXB8R5mSkw0FETg==
+  version "2.19.0"
+  resolved "https://registry.yarnpkg.com/@tabler/icons-react/-/icons-react-2.19.0.tgz#f94128479c5ab5ebaeaeeb971bf60b0bc9637a4c"
+  integrity sha512-CitxGhjGcvxSmvK5JJ7JUAal5ifygUQzfMrVt/pOg+XELIt+3jtRDTyhZHHz84XoIddxRTQMZTl/11GOjtZ9SA==
   dependencies:
-    "@tabler/icons" "2.17.0"
+    "@tabler/icons" "2.19.0"
     prop-types "^15.7.2"
 
-"@tabler/icons@2.17.0":
-  version "2.17.0"
-  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-2.17.0.tgz#3b5ac3d41576894d3e18cd8014ba8ce33f3634be"
-  integrity sha512-UeJaylOGNRhQKyDlgZfrQ3UPSGlfVQuXcmCsTYeXioKKepibW6VZ3H36Lo1jvBTBkQD2e9m+k2NxwkztOTXwrA==
+"@tabler/icons@2.19.0":
+  version "2.19.0"
+  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-2.19.0.tgz#685a794adab6c4f4ce3ceec41132d405ca31f353"
+  integrity sha512-3bqWTxFOFkrld+hx0nDSgwGWPrP2NeB9ySCAqWjXMN0hwewXYnNPpDKkOYtDfUDRtB+iiR/0FyW+kki6tu6qkQ==
 
 "@testing-library/dom@^8.5.0":
   version "8.20.0"
@@ -2201,6 +2201,11 @@
   integrity sha512-cdeYyv4KWoEgpBISTxWvqYsVy444DOqehiF3fM3ne10AmJ62RSyNkUnxMJXHQWRQQX2eR94m5y1IZyDwBjV9FQ==
   dependencies:
     "@types/node" "*"
+
+"@types/crypto-js@^4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@types/crypto-js/-/crypto-js-4.1.1.tgz#602859584cecc91894eb23a4892f38cfa927890d"
+  integrity sha512-BG7fQKZ689HIoc5h+6D2Dgq1fABRa0RbBWKBd9SP/MVRVXROflpm5fhwyATX5duFmbStzyzyycPB8qUYKDH3NA==
 
 "@types/eslint-scope@^3.7.3":
   version "3.7.4"
@@ -3695,6 +3700,11 @@ cross-spawn@^7.0.2, cross-spawn@^7.0.3:
     path-key "^3.1.0"
     shebang-command "^2.0.0"
     which "^2.0.1"
+
+crypto-js@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/crypto-js/-/crypto-js-4.1.1.tgz#9e485bcf03521041bd85844786b83fb7619736cf"
+  integrity sha512-o2JlM7ydqd3Qk9CA0L4NL6mTzU2sdx96a+oOfPu8Mkl/PK51vSyoi8/rQ8NknZtk44vq15lmhAj9CIAGwgeWKw==
 
 crypto-random-string@^2.0.0:
   version "2.0.0"
@@ -8219,6 +8229,11 @@ readdirp@~3.6.0:
   integrity sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==
   dependencies:
     picomatch "^2.2.1"
+
+reaptcha@^1.12.1:
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/reaptcha/-/reaptcha-1.12.1.tgz#1993d2f2ed52669188f16e3210afbf89b7221211"
+  integrity sha512-zoppfGKHmo8x4PBmSrIQYQOGgVp1e8wMhr6KbwAdbQ76rSky1DcDCXLWRtBg7HGXn2hw+o+0hknafMB0rnrzZQ==
 
 recursive-readdir@^2.2.2:
   version "2.2.3"

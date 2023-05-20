@@ -1,7 +1,12 @@
 import { useState } from "react";
-import { getAdmins } from "../../services/Admin";
+import {
+  getAdmins,
+  addAdmin,
+  updateAdmin,
+  deleteAdmin,
+} from "../../services/Admin";
 import { IAdmin } from "../../interfaces/admin";
-import { useQuery } from "react-query";
+import { useMutation, useQuery } from "react-query";
 import { notifications } from "@mantine/notifications";
 import {
   IconAlertTriangle,
